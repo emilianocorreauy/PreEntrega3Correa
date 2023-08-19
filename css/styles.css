@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", cursive;
+}
+
+header nav ul {
+  padding: 1rem;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+  padding: 1rem;
+}
+header nav ul li a:hover {
+  background-color: #3d6cd1;
+}
+
+/*# sourceMappingURL=styles.css.map */

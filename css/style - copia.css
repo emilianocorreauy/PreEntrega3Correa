@@ -1,0 +1,76 @@
+ /*FUENTES */
+
+ @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', cursive;
+}
+
+/* ESTILOS INDEX.HTML */
+
+/* HEADER */
+
+nav ul li a {
+    list-style: none;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+nav ul li a:hover {
+color: white;
+text-decoration: underline;
+}
+
+ul {
+list-style: none;
+}
+
+
+/* MAIN */
+
+/* HOME */
+
+.titleCarousel{
+    font-size: 2rem;
+}
+
+.descriptionCarousel{
+    font-size: 1rem;
+}
+
+.row{
+    margin-top: 2rem;
+}
+
+/* NOSOTROS*/
+
+
+/* BREADCUMB SECTIONS */
+
+
+
+.breadcumb {
+    color: #ffffff;
+    background-color: #0f5494;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #ffffff;
+}
+
+.breadcumbSection a{
+    color: #ffffff;
+}
+
+.cajaImagen {
+text-align: center;
+}
+
+
+/* ESTILOS HTML */
+
