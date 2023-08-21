@@ -1,0 +1,14 @@
+
+$colores: (
+    whatsapp: $whatsapp,
+    mail: $hover,
+);
+
+
+@each $nombre, $color in $colores {
+    .#{$nombre}{
+        background-color: $color;
+        color: #ffffff;
+        padding: 0.5rem;
+    }
+}

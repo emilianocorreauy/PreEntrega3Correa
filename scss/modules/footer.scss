@@ -1,16 +1,15 @@
 
-
 // ÍCONOS SOCIALES COLOR
 @for $i from 1 through 3 {
-    #icon#{$i} {
+    .icon#{$i} {
         color: #ffffff;
         margin: 1rem;
 
     }
 }
-
+// ÍCONOS SOCIALES HOVER
 @for $i from 1 through 3 {
-    #icon#{$i}:hover {
+    .icon#{$i}:hover {
         color: #000000;
         margin: 1rem;
         
