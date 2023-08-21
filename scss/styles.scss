@@ -1,5 +1,5 @@
 @import "./modules/_variables.scss";
- 
+
 @import "./modules/_reset.scss";
 
 @import "./modules/footer.scss";
@@ -16,3 +16,8 @@
 /* BREADCUMB */
 
 @import "./modules/_breadcumb";
+
+
+body {
+    @include reset;
+}
