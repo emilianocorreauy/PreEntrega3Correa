@@ -1,16 +1,17 @@
 @import "./modules/_variables.scss";
  
- @import "./modules/_reset.scss";
+@import "./modules/_reset.scss";
 
- @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
-  /* HEADER */
-
- @import "./modules/_header.scss";
-
- 
-  /* BREADCUMB */
-
- @import "./modules/_breadcumb";
+@import "./modules/footer.scss";
 
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* HEADER */
+
+@import "./modules/_header.scss";
+
+
+/* BREADCUMB */
+
+@import "./modules/_breadcumb";

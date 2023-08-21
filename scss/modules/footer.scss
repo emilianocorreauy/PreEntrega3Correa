@@ -1,0 +1,18 @@
+
+
+// ÍCONOS SOCIALES COLOR
+@for $i from 1 through 3 {
+    #icon#{$i} {
+        color: #ffffff;
+        margin: 1rem;
+
+    }
+}
+
+@for $i from 1 through 3 {
+    #icon#{$i}:hover {
+        color: #000000;
+        margin: 1rem;
+        
+    }
+}
