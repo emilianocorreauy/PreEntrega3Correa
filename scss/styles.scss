@@ -2,18 +2,13 @@
 
 @import "./modules/_reset.scss";
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 @import "./modules/footer.scss";
 
 @import "./modules/list.scss";
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-
-/* HEADER */
-
 @import "./modules/_header.scss";
-
-
-/* BREADCUMB */
 
 @import "./modules/_breadcumb";
 
