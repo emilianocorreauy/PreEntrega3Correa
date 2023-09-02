@@ -44,92 +44,123 @@
     </header>
 
     <!--MAIN -->
-
-    <!-- BREADCUMB -->
     <main>
+        <!-- BREADCUMB -->
         <div class="container-fluid breadcumb">
-            <nav aria-label="breadcrumb">
+            <div aria-label="breadcrumb">
                 <ol class="breadcrumb p-4 justify-content-center">
                     <li class="breadcrumb-item"><a class="text-light" href="../index.html">Home</a>
                     </li>
                     <li class="breadcrumb-item active" aria-current="page"><a class="text-light"
                             href="noticias.html">Noticias</a></li>
                 </ol>
-            </nav>
+            </div>
         </div>
-
-
-        <!--INFO-->
-
+        <!-- Page content-->
         <div class="container">
-            <div class="text-center my-5">
-                <h1>Últimas noticias</h1>
-
-            </div>
-
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card mb-5 shadow-sm">
-                        <img src="../img/noticia1.webp" alt="Tablet que muestra una tomografía" class="img-fluid" />
-
+                <!-- Blog entries-->
+                <div class="col">
+                    <!-- Featured blog post-->
+                    <div class="card mb-4">
+                        <a href="/pages/noticias/noticia1.html"><img class="card-img-top"
+                                src="/img/cancer-de-cerebro-2.webp" alt="Cáncer de cerebro" /></a>
                         <div class="card-body">
-                            <div class="card-title">
-                                <h2>Cáncer de cerebro</h2>
-                            </div>
-                            <div class="card-text">
-                                <p>
-                                    En niños y adultos menores de 40 años, los tumores cerebrales producen más muertes
-                                    que cualquier otro cáncer. Tres expertos consultados por Infobae explican cuáles son
-                                    las señales para estar atentos. Además, los seis avances científicos que dan
-                                    esperanzas...
-                                </p>
-                            </div>
-                            <a href="#" class="btn btn-outline-primary rounded-0 float-end">Leer más</a>
+                            <div class="small text-muted">2 de Setiembre de 2023</div>
+                            <h2 class="card-title">Cáncer de cerebro
+
+                            </h2>
+                            <p class="card-text">En niños y adultos menores de 40 años, los tumores cerebrales producen
+                                más muertes que cualquier otro cáncer. Tres expertos consultados por Infobae explican
+                                cuáles son las señales para estar atentos. Además, los seis avances científicos que dan
+                                esperanzas...
+
+                            </p>
+                            <a href="/pages/noticias/noticia1.html"
+                                class="btn btn-outline-primary rounded-0 float-start">Leer más</a>
                         </div>
                     </div>
-                </div>
+                    <!-- Nested row for non-featured blog posts-->
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <!-- Blog post-->
+                            <div class="card mb-4">
+                                <a href="/pages/noticias/noticia2.html"><img class="card-img-top"
+                                        src="/img/la-basuraleza-marina.webp" alt="Basuraleza marina" /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">2 de Setiembre de 2023</div>
+                                    <h2 class="card-title h4">La ‘basuraleza’ marina
+                                    </h2>
+                                    <p class="card-text">Entre 4,8 y 12,7 millones de toneladas de plásticos terminan en
+                                        las aguas marinas, lo que resulta en la presencia de millones de partículas de
+                                        macroplásticos y microplásticos flotando en nuestros mares.
 
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card mb-5 shadow-sm">
-                        <img src="../img/noticia2.webp" alt="Imagen de playa con basura" class="img-fluid" />
+                                    </p>
+                                    <a href="/pages/noticias/noticia2.html"
+                                        class="btn btn-outline-primary rounded-0 float-start">Leer más</a>
+                                </div>
+                            </div>
+                            <!-- Blog post-->
+                            <div class="card mb-4">
+                                <a href="/pages/noticias/noticia3.html"><img class="card-img-top"
+                                        src="/img/identificacion-y-cria-de-vectores.webp" alt="Identificación y cría de vectores" /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">15 de Agosto de 2023</div>
+                                    <h2 class="card-title h4">Identificación y cría de vectores
 
-                        <div class="card-body">
-                            <div class="card-title">
-                                <h2>La ‘basuraleza’ marina</h2>
+                                    </h2>
+                                    <p class="card-text">El lunes 12, en el Instituto de Higiene, funcionarios del
+                                        Ministerio de Salud Pública (MSP) participaron en la inauguración de un
+                                        laboratorio dedicado a la identificación y cría de los vectores.
+
+                                    </p>
+                                    <a href="/pages/noticias/noticia3.html"
+                                        class="btn btn-outline-primary rounded-0 float-start">Leer más</a>
+                                </div>
                             </div>
-                            <div class="card-text">
-                                <p>
-                                    Entre 4,8 y 12,7 millones de toneladas de plásticos terminan en las aguas marinas,
-                                    lo que resulta en la presencia de millones de partículas de macroplásticos y
-                                    microplásticos flotando en nuestros mares.
-                                </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <!-- Blog post-->
+                            <div class="card mb-4">
+                                <a href="/pages/noticias/noticia4.html"><img class="card-img-top"
+                                        src="/img/vapeadores.webp" alt="Vapeadores" /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">10 de Agosto de 2023</div>
+                                    <h2 class="card-title h4">Vapeadores y cáncer oral
+                                    </h2>
+                                    <p class="card-text">Aumentan los estudios que alertan sobre los efectos negativos
+                                        de los cigarros electrónicos en la salud bucodental, sobre todo por el
+                                        microbioma que se ha detectado en los usuarios que lo consumen a diario.
+                                    </p>
+                                    <a href="/pages/noticias/noticia4.html"
+                                        class="btn btn-outline-primary rounded-0 float-start">Leer más</a>
+                                </div>
                             </div>
-                            <a href="#" class="btn btn-outline-primary rounded-0 float-end">Leer más</a>
+                            <!-- Blog post-->
+                            <div class="card mb-4">
+                                <a href="/pages/noticias/noticia5.html"><img class="card-img-top"
+                                        src="/img/ebullicion-global.webp" alt="Ebullición Global" /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">5 de Agosto de 2023</div>
+                                    <h2 class="card-title h4">¿Qué es la era de la ebullición global?
+
+                                    </h2>
+                                    <p class="card-text">La ONU declaró que la humanidad ha entrado a la era de la
+                                        ebullición global, por los registros históricos de altas temperaturas y
+                                        calorones en el mundo.
+                                    </p>
+                                    <a href="/pages/noticias/noticia5.html"
+                                        class="btn btn-outline-primary rounded-0 float-start">Leer más</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card mb-5 shadow-sm">
-                        <img src="../img/noticia3.webp" alt="Reunión por inaguración de laboratorio"
-                            class="img-fluid" />
 
-                        <div class="card-body">
-                            <div class="card-title">
-                                <h2>Identificación y cría de vectores</h2>
-                            </div>
-                            <div class="card-text">
-                                <p>
-                                    El lunes 12, en el Instituto de Higiene, funcionarios del Ministerio de Salud
-                                    Pública (MSP) participaron en la inauguración de un laboratorio dedicado a la
-                                    identificación y cría de los vectores.
-                                </p>
-                            </div>
-                            <a href="#" class="btn btn-outline-primary rounded-0 float-end">Leer más</a>
-                        </div>
-                    </div>
+
                 </div>
             </div>
+        </div>
 
     </main>
 
@@ -160,8 +191,9 @@
             <div class="row text-center">
                 <a class="navbar-brand mt-3 mb-3" href="../index.html"><img class="text-center" src="../img/logo.svg"
                         width="300px" height="auto" alt="Logo ComunicacióN Salud Siglo XXI" /></a>
-                <p class="text-light">Desarrollado por <a class="text-light" href="http://www.emilianocorrea.com" target="_blank">Emiliano
-                    Correa </a></p>
+                <p class="text-light">Desarrollado por <a class="text-light" href="http://www.emilianocorrea.com"
+                        target="_blank">Emiliano
+                        Correa </a></p>
             </div>
 
         </div>
